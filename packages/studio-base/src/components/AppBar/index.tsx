@@ -17,6 +17,7 @@ import tc from "tinycolor2";
 import { makeStyles } from "tss-react/mui";
 
 import { FoxgloveLogo } from "@foxglove/studio-base/components/FoxgloveLogo";
+import Menu from "@mui/icons-material/Menu";
 import Stack from "@foxglove/studio-base/components/Stack";
 import { useAppContext } from "@foxglove/studio-base/context/AppContext";
 import {
@@ -207,7 +208,7 @@ export function AppBar(props: AppBarProps): JSX.Element {
                   setAppMenuEl(event.currentTarget);
                 }}
               >
-                <FoxgloveLogo fontSize="inherit" color="inherit" />
+                <Menu fontSize="inherit" style={{color:'#FFF'}} />
                 <ChevronDown12Regular
                   className={classes.dropDownIcon}
                   primaryFill={theme.palette.common.white}

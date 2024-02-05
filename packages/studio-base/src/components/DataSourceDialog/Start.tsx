@@ -479,7 +479,7 @@ export default function Start(): JSX.Element {
   return (
     <Stack className={classes.grid}>
       <header className={classes.header}>
-        <FoxgloveLogoText color="primary" className={classes.logo} />
+        <div style={{ fontSize: '3em' }}>ISSPA Studio</div>
       </header>
       <Stack className={classes.content}>
         <Stack gap={4}>

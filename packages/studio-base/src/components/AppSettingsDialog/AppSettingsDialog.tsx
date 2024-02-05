@@ -310,11 +310,11 @@ export function AppSettingsDialog(
           >
             <Stack gap={2} alignItems="flex-start">
               <header>
-                <FoxgloveLogoText color="primary" className={classes.logo} />
+                <div style={{ fontSize: '3em' }}>ISSPA Studio</div>
               </header>
               <Stack direction="row" alignItems="center" gap={1}>
                 <Typography variant="body2">
-                  Foxglove Studio version {FOXGLOVE_STUDIO_VERSION}
+                  Based on Foxglove Studio version {FOXGLOVE_STUDIO_VERSION} to develop
                 </Typography>
                 <CopyButton
                   size="small"

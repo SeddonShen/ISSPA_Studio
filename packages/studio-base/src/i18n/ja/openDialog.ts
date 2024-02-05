@@ -19,7 +19,7 @@ export const openDialog: Partial<TypeOptions["resources"]["openDialog"]> = {
   needHelp: "ヘルプが必要ですか？",
   needHelpDescription:
     "ドキュメンテーションを見たり、Foxgloveブログのチュートリアルをチェックしてみましょう。",
-  newToFoxgloveStudio: "Foxglove Studioを初めてご利用ですか？",
+  newToFoxgloveStudio: "ISSPA Studioを初めてご利用ですか？",
   newToFoxgloveStudioDescription:
     "サンプルデータセットを探索したり、ドキュメンテーションをチェックして開始してください。",
   openAGitHubIssue: "GitHubの問題を開く",

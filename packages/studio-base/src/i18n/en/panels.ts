@@ -48,4 +48,5 @@ export const panels = {
   variableSlider: "Variable Slider",
   variableSliderDescription: "Update numerical variable values for a layout.",
   settings: "Settings",
+  carteleop: "Teleop for Car",
 };

@@ -20,6 +20,7 @@ import stateTransitionsThumbnail from "./StateTransitions/thumbnail.png";
 import tabThumbnail from "./Tab/thumbnail.png";
 import tableThumbnail from "./Table/thumbnail.png";
 import teleopThumbnail from "./Teleop/thumbnail.png";
+import carteleopThumbnail from "./Teleop/thumbnail.png";
 import threeDeeRenderThumbnail from "./ThreeDeeRender/thumbnail.png";
 import topicGraphThumbnail from "./TopicGraph/thumbnail.png";
 import variableSliderThumbnail from "./VariableSlider/thumbnail.png";

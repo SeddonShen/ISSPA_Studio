@@ -101,22 +101,10 @@ function CompatibilityBannerBase({
 
         <div>
           <Typography variant="subtitle2">
-            {prompt} Foxglove Studio currently requires Chrome v{MINIMUM_CHROME_VERSION}+.
+            {prompt} ISSPA Studio currently requires Chrome v{MINIMUM_CHROME_VERSION}+.
           </Typography>
 
-          {!isChrome && (
-            <Typography variant="body2">
-              Check out our cross-browser support progress in GitHub discussion{" "}
-              <Link
-                color="inherit"
-                href="https://github.com/orgs/foxglove/discussions/174"
-                target="_blank"
-              >
-                #174
-              </Link>
-              .
-            </Typography>
-          )}
+          {!isChrome}
         </div>
       </Stack>
 
