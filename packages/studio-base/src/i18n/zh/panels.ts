@@ -48,5 +48,6 @@ export const panels: Partial<TypeOptions["resources"]["panels"]> = {
   variableSlider: "变量滑块",
   variableSliderDescription: "更新布局的数字变量值。",
   settings: "设置",
-  carteleop: "车载远程操纵"
+  carteleop: "车载远程操纵",
+  carteleopDescription: "通过实时连接远程操控车辆。"
 };

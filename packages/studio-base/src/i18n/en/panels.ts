@@ -49,4 +49,5 @@ export const panels = {
   variableSliderDescription: "Update numerical variable values for a layout.",
   settings: "Settings",
   carteleop: "Teleop for Car",
+  carteleopDescription: "Teleoperate a car over a live connection.",
 };

@@ -20,7 +20,7 @@ import stateTransitionsThumbnail from "./StateTransitions/thumbnail.png";
 import tabThumbnail from "./Tab/thumbnail.png";
 import tableThumbnail from "./Table/thumbnail.png";
 import teleopThumbnail from "./Teleop/thumbnail.png";
-import carteleopThumbnail from "./Teleop/thumbnail.png";
+import carteleopThumbnail from "./Carteleop/thumbnail.png";
 import threeDeeRenderThumbnail from "./ThreeDeeRender/thumbnail.png";
 import topicGraphThumbnail from "./TopicGraph/thumbnail.png";
 import variableSliderThumbnail from "./VariableSlider/thumbnail.png";
@@ -78,6 +78,13 @@ export const getBuiltin: (t: TFunction<"panels">) => PanelInfo[] = (t) => [
     description: t("teleopDescription"),
     thumbnail: teleopThumbnail,
     module: async () => await import("./Teleop"),
+  },
+  {
+    title: t("carteleop"),
+    type: "Carteleop",
+    description: t("carteleopDescription"),
+    thumbnail: carteleopThumbnail,
+    module: async () => await import("./Carteleop"),
   },
   {
     title: t("map"),
