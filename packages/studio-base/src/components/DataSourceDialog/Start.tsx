@@ -290,105 +290,10 @@ function SidebarItems(props: {
   }, [analytics, classes.button, currentUserType, onSelectView, t]);
 
   const sidebarItems: SidebarItem[] = useMemo(() => {
-    switch (currentUserType) {
-      case "unauthenticated":
-        return [
-          ...freeUser,
-          {
-            id: "collaborate",
-            title: t("collaborateTitle"),
-            text: (
-              <ul className={classes.featureList}>
-                <li>{t("secureStorageOfData")}</li>
-                <li>{t("convenientWebInterface")}</li>
-                <li>{t("canBeShared")}</li>
-              </ul>
-            ),
-            actions: signIn ? (
-              <>
-                <Button
-                  className={classes.button}
-                  variant="outlined"
-                  onClick={() => {
-                    void analytics.logEvent(AppEvent.DIALOG_CLICK_CTA, {
-                      user: currentUserType,
-                      cta: "create-account",
-                    });
-                    signIn();
-                  }}
-                >
-                  {t("createAFreeAccount")}
-                </Button>
-                <Button
-                  className={classes.button}
-                  onClick={() => {
-                    void analytics.logEvent(AppEvent.DIALOG_CLICK_CTA, {
-                      user: currentUserType,
-                      cta: "sign-in",
-                    });
-                    signIn();
-                  }}
-                >
-                  {t("signIn")}
-                </Button>
-              </>
-            ) : (
-              <Button
-                href="https://foxglove.dev/data-platform"
-                target="_blank"
-                className={classes.button}
-                variant="outlined"
-                onClick={() => {
-                  void analytics.logEvent(AppEvent.DIALOG_CLICK_CTA, {
-                    user: currentUserType,
-                    cta: "create-account",
-                  });
-                }}
-              >
-                {t("learnMore")}
-              </Button>
-            ),
-          },
-        ];
-      case "authenticated-free":
-        return [
-          {
-            id: "start-collaborating",
-            title: t("startCollaborating"),
-            text: t("startCollaboratingDescription"),
-            actions: (
-              <>
-                <Button
-                  href="https://console.foxglove.dev/recordings"
-                  target="_blank"
-                  variant="outlined"
-                  className={classes.button}
-                  onClick={() => {
-                    void analytics.logEvent(AppEvent.DIALOG_CLICK_CTA, {
-                      user: currentUserType,
-                      cta: "upload-to-dp",
-                    });
-                  }}
-                >
-                  {t("uploadToDataPlatform")}
-                </Button>
-                <Button
-                  href="https://docs.foxglove.dev/docs/visualization/layouts#team-layouts"
-                  target="_blank"
-                  className={classes.button}
-                >
-                  {t("shareLayouts")}
-                </Button>
-              </>
-            ),
-          },
-          ...freeUser,
-        ];
-      case "authenticated-team":
-        return teamOrEnterpriseUser;
-      case "authenticated-enterprise":
-        return teamOrEnterpriseUser;
-    }
+    return [
+      ...freeUser,
+
+    ];
   }, [
     analytics,
     classes.button,
