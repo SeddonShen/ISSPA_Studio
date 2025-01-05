@@ -310,7 +310,7 @@ export function AppSettingsDialog(
           >
             <Stack gap={2} alignItems="flex-start">
               <header>
-                <div style={{ fontSize: '3em' }}>ISSPA Studio</div>
+                <div style={{ fontSize: '3em' }}>ISS Cloud Studio</div>
               </header>
               <Stack direction="row" alignItems="center" gap={1}>
                 <Typography variant="body2">

@@ -19,12 +19,12 @@ export default function DocumentTitleAdapter(): JSX.Element {
 
   useEffect(() => {
     if (!playerName) {
-      window.document.title = "ISSPA Studio";
+      window.document.title = "ISS Cloud Studio";
       return;
     }
     window.document.title = navigator.userAgent.includes("Mac")
       ? playerName
-      : `${playerName} – ISSPA Studio`;
+      : `${playerName} – ISS Cloud Studio`;
   }, [playerName]);
 
   return <></>;

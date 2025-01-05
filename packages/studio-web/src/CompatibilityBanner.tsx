@@ -101,7 +101,7 @@ function CompatibilityBannerBase({
 
         <div>
           <Typography variant="subtitle2">
-            {prompt} ISSPA Studio currently requires Chrome v{MINIMUM_CHROME_VERSION}+.
+            {prompt} ISS Cloud Studio currently requires Chrome v{MINIMUM_CHROME_VERSION}+.
           </Typography>
 
           {!isChrome}

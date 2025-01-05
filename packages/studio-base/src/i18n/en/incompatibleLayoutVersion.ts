@@ -4,8 +4,8 @@
 
 export const incompatibleLayoutVersion = {
   desktopText:
-    "This layout was created with a newer version of ISSPA Studio. Please update to the latest version at ",
+    "This layout was created with a newer version of ISS Cloud Studio. Please update to the latest version at ",
   title: "Incompatible layout version",
   webText:
-    "This layout was created with a newer version of ISSPA Studio. Please refresh your browser.",
+    "This layout was created with a newer version of ISS Cloud Studio. Please refresh your browser.",
 };

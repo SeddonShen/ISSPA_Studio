@@ -8,8 +8,8 @@ export const incompatibleLayoutVersion: Partial<
   TypeOptions["resources"]["incompatibleLayoutVersion"]
 > = {
   desktopText:
-    "このレイアウトはISSPA Studioの新しいバージョンで作成されました。最新バージョンに更新してください ",
+    "このレイアウトはISS Cloud Studioの新しいバージョンで作成されました。最新バージョンに更新してください ",
   title: "互換性のないレイアウトバージョン",
   webText:
-    "このレイアウトはISSPA Studioの新しいバージョンで作成されました。ブラウザを更新してください。",
+    "このレイアウトはISS Cloud Studioの新しいバージョンで作成されました。ブラウザを更新してください。",
 };

@@ -92,7 +92,7 @@ const mainConfig = (env: unknown, argv: WebpackArgv): Configuration => {
   <html>
     <head>
       <meta charset="utf-8">
-      <title>ISSPA Studio Benchmark</title>
+      <title>ISS Cloud Studio Benchmark</title>
     </head>
     <script>
       global = globalThis;

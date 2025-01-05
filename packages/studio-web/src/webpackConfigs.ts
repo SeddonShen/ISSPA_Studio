@@ -180,7 +180,7 @@ export const mainConfig =
   </html>
   `,
           foxgloveExtraHeadTags: `
-            <title>ISSPA Studio</title>
+            <title>ISS Cloud Studio</title>
           `,
           ...params.indexHtmlOptions,
         }),

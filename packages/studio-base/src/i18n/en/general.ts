@@ -4,7 +4,7 @@
 
 // Generic global translation
 export const general = {
-  foxglove: "ISSPA Studio",
+  foxglove: "ISS Cloud Studio",
   learnMore: "Learn more",
   on: "On",
   off: "Off",

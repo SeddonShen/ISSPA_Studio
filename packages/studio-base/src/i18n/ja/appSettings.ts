@@ -10,7 +10,7 @@ export const appSettings: Partial<TypeOptions["resources"]["appSettings"]> = {
   askEachTime: "毎回確認する",
   colorScheme: "カラースキーム",
   dark: "ダーク",
-  debugModeDescription: "ISSPA Studioのデバッグ用のパネルと機能を有効にする",
+  debugModeDescription: "ISS Cloud Studioのデバッグ用のパネルと機能を有効にする",
   desktopApp: "デスクトップアプリ",
   displayTimestampsIn: "タイムスタンプを表示",
   experimentalFeatures: "実験的機能",

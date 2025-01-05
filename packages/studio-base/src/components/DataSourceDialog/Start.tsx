@@ -384,7 +384,7 @@ export default function Start(): JSX.Element {
   return (
     <Stack className={classes.grid}>
       <header className={classes.header}>
-        <div style={{ fontSize: '3em' }}>ISSPA Studio</div>
+        <div style={{ fontSize: '3em' }}>ISS Cloud Studio</div>
       </header>
       <Stack className={classes.content}>
         <Stack gap={4}>

@@ -8,7 +8,7 @@ import { TypeOptions } from "i18next";
 export const general: Partial<TypeOptions["resources"]["general"]> = {
   // Note that we use the term `Foxglove` as an English word rather than a Japanese
   // word since it would sound very different - フォックスグローブ (Fokusugorobu).
-  foxglove: "ISSPA Studio",
+  foxglove: "ISS Cloud Studio",
   learnMore: "もっと学ぶ",
   on: undefined,
   off: undefined,

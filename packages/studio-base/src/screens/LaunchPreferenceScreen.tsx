@@ -79,7 +79,7 @@ export function LaunchPreferenceScreen(): ReactElement {
 
   return (
     <Dialog open classes={{ paper: classes.paper }}>
-      <DialogTitle className={classes.dialogTitle}>Launch ISSPA Studio</DialogTitle>
+      <DialogTitle className={classes.dialogTitle}>Launch ISS Cloud Studio</DialogTitle>
       <DialogContent>
         <Grid container spacing={1}>
           {actions.map((action) => (
